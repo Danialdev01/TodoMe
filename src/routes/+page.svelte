@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Todo from "$lib/components/Todo.svelte";
+    import AddTodo from "$lib/components/AddTodo.svelte";
+    import Header from "$lib/components/Header.svelte";
+</script>
+
+<Header />
+<div class="main-container">
+    <AddTodo />
+    <center>
+        <Todo />
+    </center>
+</div>
+
+<style>
+    @import "../assets/css/main.css";
+</style>

@@ -1,0 +1,64 @@
+//@ Set COlors
+@import "./colors";
+// @import "../Custom/variables";
+
+//* Font color
+.white{
+    color:  $white;
+}
+// TODO set only 5 gradent color for each color because too much bloat
+.gray{
+    color: $gray-100;
+
+    &-1{color: $gray-100;}
+    &-2{color: $gray-200;}
+    &-3{color: $gray-300;}
+    &-4{color: $gray-400;}
+    &-5{color: $gray-500;}
+    &-6{color: $gray-600;}
+    &-7{color: $gray-700;}
+    &-8{color: $gray-800;}
+    &-9{color: $gray-900;}
+}
+.black{color: $black}
+.blue{
+    color: $blue1;
+
+    &-1{color: $blue1;}
+    &-2{color: $blue2;}
+    &-3{color: $blue3;}
+    &-4{color: $blue4;}
+    &-5{color: $blue5;}
+    &-6{color: $blue6;}
+    &-7{color: $blue7;}
+    &-8{color: $blue8;}
+    &-9{color: $blue9;}
+    &-10{color: $blue10;}
+}
+
+// TODO Add color gradient
+.red{
+    color: $red;
+}
+.green{color:  $green;}
+
+.orange{color: $orange;}
+.gray{color:   $gray-600;}
+.yellow{color: $yellow;}
+.cyan{color:   $cyan;}
+
+//* Background color
+.bg{
+    // FIXME Fix why cant use primary and secondary as bg color
+    // &-primary{background-color: $primary-color;}
+    // &-secondary{background-color: $secondary-color;}
+    &-black{background-color:  $black;}
+    &-red{background-color:    $red;}
+    &-blue{background-color:   $blue1 ;}
+    &-cyan{background-color:   $cyan;}
+    &-yellow{background-color: $yellow;}
+    &-gray{background-color:   $gray-400;}
+    &-white{background-color:  $white;}
+    &-orange{background-color: $orange;}
+    &-green{background-color: $green;}
+}
