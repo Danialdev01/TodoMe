@@ -6,6 +6,13 @@
 //* edit styles below 
 // TODO add themes
 //@, Defalt color
+$black1:#0c0c0c;
+$black1-5:#0a0a0a;
+$black2:#101111;
+$black3:#141516;
+$black4:#1d1f20;
+$black5:#2d3031;
+
 $color1:$gray-200;
 $color2:$black;
 $color3:$blue1;
@@ -14,9 +21,10 @@ $con-color1:$gray-200;
 $con-color2:$black;
 $con-color3:$black;
 
+
 //TODO set all color to default prmary, secondary, and third atau varient con(contra)
 //@ Section 
-$body-bg:$color1;
+$body-bg:$black3;
 $body-color:$color2;
 $section-bg:$color1;
 $section-color:$color2;
@@ -28,27 +36,27 @@ $defalt-font:'Public Sans', sans-serif;
 //@, Text 
 //^ H1 
 $h1-font:$defalt-font;
-$h1-color:$black;
+$h1-color:$white;
 
 //^ H2
 $h2-font:$defalt-font;
-$h2-color:$black;
+$h2-color:$white;
 
 //^ H3
 $h3-font:$defalt-font;
-$h3-color:$black;
+$h3-color:$white;
 
 //^H4
 $h4-font:$defalt-font;
-$h4-color:$black;
+$h4-color:$white;
 
 //^H5
 $h5-font:$defalt-font;
-$h5-color:$black;
+$h5-color:$white;
 
 //^ P
 $p-font:$defalt-font;
-$p-color: $black;
+$p-color: $white;
 
 
 

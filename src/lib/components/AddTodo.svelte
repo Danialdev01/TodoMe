@@ -18,5 +18,7 @@
 
 </script>
 
-<input class="w-70per br-1" type="text" bind:value={tasks} >
-<button class="br-1 bg-gray black bold" on:click={AddTasks}>Add Task</button>
+<div class="todo-input-container">
+    <input class="todo-input" type="text" bind:value={tasks} >
+    <button class="todo-input-button" on:click={AddTasks}>Add Task</button>
+</div>

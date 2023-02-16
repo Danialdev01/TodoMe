@@ -1,12 +1,15 @@
 <script>
-    export let tittle = "";
+    export let title = "Todo";
 </script>
 
+<svelte:head>
+    <title>{title}</title>
+</svelte:head>
+
 <header>
-    <nav>
-        <div class="logo">
-            <img src="https://danialirfan.dev/images/default.png" alt="logo">
-        </div>
-    </nav>
+    <div class="header-title">
+        <div class="iconblue"></div>
+        <p>Todo Me</p>
+    </div>
 </header>
 

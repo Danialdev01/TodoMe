@@ -142,7 +142,7 @@ body {
   font-family: "Public Sans", sans-serif;
   line-height: 1.3;
   font-size: 1.125rem;
-  background-color: #e9ecef;
+  background-color: #141516;
   color: #000;
   width: 100%;
   height: 100%;
@@ -194,32 +194,32 @@ input:focus {
 
 h1 {
   font-style: "Public Sans", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 h2 {
   font-style: "Public Sans", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 h3 {
   font-style: "Public Sans", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 h4 {
   font-style: "Public Sans", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 h5 {
   font-style: "Public Sans", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 p {
   font-style: "Public Sans", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 ul li {
@@ -1081,27 +1081,98 @@ ul li {
   bottom: 100px;
 }
 
-header nav {
-  padding: 20px;
-  display: flex;
+.sidenav {
+  height: 100vh;
+  background-color: #0c0c0c;
+  width: 60px;
+  padding: 9px;
+  padding-top: 30px;
 }
-header nav .logo {
-  padding-top: 10px;
-  padding-left: 20px;
+.sidenav .logo {
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 1px;
+  padding-top: 2px;
 }
-header nav .logo img {
-  max-width: 50px;
+.sidenav .logo img {
+  width: 40px;
+  margin-left: -1px;
 }
-header nav .links {
-  flex: 1;
+
+header {
+  background-color: #101111;
   width: 100%;
-  padding-right: 40px;
-  padding-top: 25px;
-  padding-left: 35px;
+  height: 90px;
+  margin-top: -4px;
+  padding: 10px;
 }
-header nav .links a {
-  padding-right: 20px;
+header .header-title {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+header .header-title .iconblue {
+  width: 10px;
+  height: 10px;
+  border: 2px solid cyan;
+  border-radius: 3px;
+}
+header .header-title p {
+  margin-top: -7px;
+  padding-left: 5px;
+}
+
+.todo-item-container {
+  width: 100%;
+}
+.todo-item-container .todo-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.todo-item-container .todo-container .todo {
+  background-color: #1d1f20;
+  width: 380px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding-top: 2px;
+}
+.todo-item-container .todo-container .todo:first-child {
   padding-left: 20px;
+}
+.todo-item-container .todo-container .todo p {
+  margin-top: 3px;
+}
+.todo-item-container .todo-container .todo .delete-todo-button-container {
+  padding-top: 3px;
+}
+.todo-item-container .todo-container .todo .delete-todo-button-container button {
+  background-color: #101111;
+  border-radius: 3px;
+}
+
+.todo-input-container {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.todo-input-container .todo-input {
+  width: 70%;
+  height: 25px;
+  border-radius: 4px;
+}
+.todo-input-container .todo-input-button {
+  background-color: #0a0a0a;
+  color: white;
+  font-weight: 500;
+  height: 25px;
+  border-radius: 4px;
+}
+.delete-todo-button:hover {
+  background-color: red;
 }
 
 .slide-in-top {
