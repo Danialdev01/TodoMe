@@ -3,6 +3,7 @@
     import AddTodo from "$lib/components/AddTodo.svelte";
     import Header from "$lib/components/Header.svelte";
     import SideNav from "$lib/components/SideNav.svelte";
+ 
 </script>
 
 <div class="flex" style="padding: 0;" >

@@ -6,7 +6,6 @@
 .white{
     color:  $white;
 }
-// TODO set only 5 gradent color for each color because too much bloat
 .gray{
     color: $gray-100;
 
@@ -49,9 +48,6 @@
 
 //* Background color
 .bg{
-    // FIXME Fix why cant use primary and secondary as bg color
-    // &-primary{background-color: $primary-color;}
-    // &-secondary{background-color: $secondary-color;}
     &-black{background-color:  $black;}
     &-red{background-color:    $red;}
     &-blue{background-color:   $blue1 ;}

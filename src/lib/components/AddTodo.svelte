@@ -11,7 +11,7 @@
         update();
     }
 
-    //CLEANUP fix prop reload ( dont window reload because slow )
+    //FIXME fix prop reload ( dont window reload because slow )
     function update() {
         location.reload();
     }
